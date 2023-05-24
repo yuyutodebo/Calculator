@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/et_pertama"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:hint="0"
+            android:inputType="number"
+            android:background="@drawable/border1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginRight="50dp"/>
+
+        <EditText
+            android:id="@+id/et_kedua"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:hint="0"
+            android:inputType="number"
+            android:background="@drawable/border1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/btn_Hasil"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="HASIL"
+            android:backgroundTint="#d9ead3"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#f0b6cc"/>
+
+        <Button
+            android:id="@+id/btn_min"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="-"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#f0b6cc"/>
+
+        <Button
+            android:id="@+id/btn_kali"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="*"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#f0b6cc"/>
+
+        <Button
+            android:id="@+id/btn_bagi"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="/"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#f0b6cc"/>
+
+        <Button
+            android:id="@+id/btn_Clr"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="CLR"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:backgroundTint="#f0b6cc"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
